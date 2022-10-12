@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 12px !important;
+  box-sizing: border-box;
+}
+body {
+  padding: 15px;
+  background-color: rgb(238, 238, 238);
+}
+.layui-card-body {
+  padding: 25px;
+}
+.layui-card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.layui-table {
+  text-align: center;
+}
+.layui-table thead tr th {
+  text-align: center;
+}
+#tbody td:last-child {
+  text-align: left;
+}
+#form-add,
+#form-edit {
+  padding: 25px;
+}
+#form-dialog .layui-form-label {
+  padding: 9px 0;
+}
